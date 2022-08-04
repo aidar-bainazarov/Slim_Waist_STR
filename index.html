@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlimWaist</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    
+
+<!--            VKONTAKTE
+------------------------------------ -->
+
+<svg style="display: none;">
+    <symbol id="vkontakte" viewBox="0 0 176 176">
+        <g>
+            <path d="m173 31.47a32 32 0 0 0 -28.48-28.47 530 530 0 0 0 -113 0 32 32 0 0 0 -28.52 28.47 532.69 532.69 0 0 0 0 113.05 32.06 32.06 0 0 0 28.48 28.48 530 530 0 0 0 113 0 32.06 32.06 0 0 0 28.52-28.48 532.69 532.69 0 0 0 0-113.05zm-35.27 88c-2.56.36-15.08 0-15.73 0a12.29 12.29 0 0 1 -8.7-3.47c-2.64-2.55-5-5.35-7.58-8a20.22 20.22 0 0 0 -2.47-2.24c-2.06-1.58-4.1-1.22-5.07 1.21a47.26 47.26 0 0 0 -1.58 8.03c-.17 2.45-1.73 4-4.49 4.16-1.71.1-3.42.13-5.11.09a39 39 0 0 1 -17.69-4.38 48.15 48.15 0 0 1 -15.13-13.22c-6.67-8.52-12-17.88-16.76-27.53-.25-.49-5.13-10.86-5.25-11.36-.44-1.63 0-3.2 1.35-3.75.86-.33 16.94 0 17.21 0a5.65 5.65 0 0 1 5.4 3.89 83.8 83.8 0 0 0 12.08 21.18 11.56 11.56 0 0 0 2.45 2.23c1.31.9 2.55.59 3.09-.93a26.28 26.28 0 0 0 1.12-6.45c.09-4.34 0-7.19-.24-11.53-.16-2.78-1.14-5.21-5.24-6-1.26-.23-1.37-1.27-.56-2.31 1.69-2.15 4-2.5 6.59-2.62 3.86-.23 7.72-.08 11.58 0h.84a23.26 23.26 0 0 1 5 .5 4.63 4.63 0 0 1 3.67 4.11 16 16 0 0 1 .25 3.32c-.1 4.73-.33 9.47-.38 14.2a24.3 24.3 0 0 0 .51 5.59c.55 2.53 2.28 3.15 4 1.33a62.24 62.24 0 0 0 6.11-7.52 76.12 76.12 0 0 0 8-15.56c1.12-2.81 2-3.43 5-3.43h17.06a10.12 10.12 0 0 1 3 .4 2.59 2.59 0 0 1 1.79 3.35c-.84 3.75-2.86 6.93-5 10-3.47 4.91-7.13 9.7-10.68 14.55a18.8 18.8 0 0 0 -1.23 2c-1.34 2.41-1.24 3.76.7 5.76 3.1 3.19 6.41 6.17 9.4 9.45a55.77 55.77 0 0 1 5.92 7.69c2.19 3.4.84 6.64-3.24 7.22z"></path>
+        </g>
+    </symbol>
+</svg>
+
+
+<!--            HEADER
+----------------------------------- -->
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img src="img/header/logo-sw.PNG" alt="" class="header__img">
+            </div>
+            <nav class="nav" id="nav">
+                <a href="#" class="nav__link" data-scroll="#info">о нас</a>
+                <a href="#" class="nav__link" data-scroll="#services">услуги</a>
+                <a href="#" class="nav__link" data-scroll="#team">мастера</a>
+                <a href="#" class="nav__link" data-scroll="#statistics">Показатели</a>
+                <a href="#" class="nav__link" data-scroll="#contacts">контакты</a>
+            </nav>
+            <div class="burger" id="navToggle">
+                <div class="menu">
+                    <div class="menu__strip"></div>
+                    <div class="menu__strip"></div>
+                    <div class="menu__strip"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!--            INTRO
+----------------------------------- -->
+
+<div class="intro" id="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h1 class="intro__title">Slim Waist</h1>
+            <h2 class="intro__subtitle">студия идеального лица и тела</h2>
+            <a href="https://vk.com/slim_waist?w=app5708398_-61459723" target="_blank" class="intro__btn">онлайн запись</a> <br>
+            <div class="intro__tel">
+                <a href="tel:+79191471377" class="intro__tel">8 (919) 147 13 77</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--            INFO
+----------------------------------- -->
+
+
+<div class="info" id="info">
+    <div class="container">
+        <div class="info__inner">
+            <h3 class="info__title title">Пару слов о нас</h3>
+            <div class="strip"></div>
+            <p class="info__text">Природа наделила каждую женщину красотой. Нам лишь нужно своевременно её поддерживать, 
+                и тогда процесс старения и дряблости кожи замедлиться. В этом и призвана вам помочь наша студия идеального лица и тела.
+                Мы индивидуально подберем подход к каждой из вас. Избавим от лишнего веса, дряблости кожи, 
+                повысим тонус мышц и сделаем так, чтобы просыпаясь каждое утро вы любили себя еще больше!</p>
+            <div class="info__photo">
+                <img src="img/info/info-1.JPG" alt="info-1" class="info__img">
+                <img src="img/info/info-2.JPG" alt="info-2" class="info__img">
+                <img src="img/info/info-3.JPG" alt="info-3" class="info__img">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+           <!-- SERVICES
+----------------------------------- -->
+
+<div class="services" id="services">
+    <div class="container">
+        <h3 class="services__title title">Услуги</h3>
+        <div class="strip"></div>
+    </div>
+    <div class="services__inner">
+
+        <div class="services__item">
+            <img src="img/services/service-1.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">чистка лица</div>
+                <div class="services__price">от 900 </div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_5197583%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-2.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">Миндальный пилинг</div>
+                <div class="services__price">1600</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_5197582%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-3.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">vela shape</div>
+                <div class="services__price">1500</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_5182862%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-4.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">slim beauty</div>
+                <div class="services__price">1000</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_5182860%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-5.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">Элос эпиляция</div>
+                <div class="services__price">от 400</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_5182855%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-6.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">лазерный липолиз</div>
+                <div class="services__price">1000</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_2528153%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-7.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">кавитация</div>
+                <div class="services__price">1000</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_3300798%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-8.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">прессотерапия</div>
+                <div class="services__price">1000</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_3300770%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-9.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">миостимуляция</div>
+                <div class="services__price">1000</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_3300810%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-10.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">массаж</div>
+                <div class="services__price">от 400</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_3300817%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-11.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">rf лифтинг</div>
+                <div class="services__price">1000</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_2530964%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-12.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">обертывание t-shock</div>
+                <div class="services__price">2600</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_3470019%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-13.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">криолиполиз</div>
+                <div class="services__price">5000</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_3479481%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-14.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">обертывание</div>
+                <div class="services__price">1300</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_3728900%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-15.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">кабоновый пилинг</div>
+                <div class="services__price">2000</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_3780706%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-16.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">lpg массаж</div>
+                <div class="services__price">1500</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_3780716%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-17.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">удаление тату и татуажа лазером</div>
+                <div class="services__price">1000</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_4301004%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-18.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">smas лифтинг</div>
+                <div class="services__price">от 5000</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_4358021%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-19.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">обертывание ламинарией</div>
+                <div class="services__price">2600</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_4358022%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+        <div class="services__item">
+            <img src="img/services/service-20.jpg" alt="" class="services__photo"></img>
+            <div class="services__content">
+                <div class="services__name">starvac</div>
+                <div class="services__price">2000</div>
+                <a href="https://vk.com/uslugi-61459723?w=product-61459723_4358056%2Fquery" class="services__btn" target="_blank">подробнее</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+           <!-- TEAM
+----------------------------------- -->
+
+<div class="team" id="team">
+    <div class="container">
+        <h3 class="team__title title">Мастера</h3>
+        <div class="strip"></div>
+        <div class="team__inner">
+
+            <div class="team__item">
+                <img src="img/team/team-1.jpg" alt="" class="team__photo">
+                <div class="team__name">Гузель</div>
+                <div class="team__prof">массажист, косметолог, спа технолог</div>
+            </div>
+
+            <div class="team__item">
+                <img src="img/team/team-2.jpg" alt="" class="team__photo">
+                <div class="team__name">Эльвира</div>
+                <div class="team__prof">косметолог, спа технолог</div>
+            </div>
+
+            <div class="team__item">
+                <img src="img/team/team-3.jpg" alt="" class="team__photo">
+                <div class="team__name">Гульфиназ</div>
+                <div class="team__prof">косметолог</div>
+            </div>
+
+            <div class="team__item">
+                <img src="img/team/team-4.jpg" alt="" class="team__photo">
+                <div class="team__name">Венера</div>
+                <div class="team__prof">массажист, спа технолог</div>
+            </div>
+
+        </div>
+    </div>
+</div> 
+
+
+           <!-- STATISTICS
+----------------------------------- -->
+
+<div class="statistics" id="statistics">
+    <h3 class="statistics__title title">Показатели</h3>
+    <div class="strip"></div>
+    <div class="statistics__outer">
+        <div class="container">
+            <div class="statistics__inner">
+                
+                <div class="statistics__item">
+                    <div class="statistics__number">51</div>
+                    <div class="statistics__text">видов услуг</div>
+                </div>
+    
+                <div class="statistics__item">
+                    <div class="statistics__number">15</div>
+                    <div class="statistics__text">едениц оборудования</div>
+                </div>
+    
+                <div class="statistics__item">
+                    <div class="statistics__number">450</div>
+                    <div class="statistics__text">счастливых клиентов в месяц</div>
+                </div>
+    
+                <div class="statistics__item">
+                    <div class="statistics__number">50</div>
+                    <div class="statistics__text">% скидка на первый сеанс</div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--            CONTACTS
+------------------------------------ -->
+
+<div class="contacts" id="contacts">
+    <div class="container">
+        <h3 class="contacts__title title">Контакты</h3>
+        <div class="strip"></div>
+        <div class="contacts__inner">
+
+            <div class="contacts__item">
+                <img src="img/contacts/contacts_img.jpg" alt="" class="contacts__img">
+            </div>
+
+            <div class="contacts__item">
+                <div class="contacts__vk">
+                    <img src="img/contacts/vk_img.jpg" alt="vk__img" class="vk__img">
+                    <div class="vk__content">
+                        <div class="vk__text">Подписывайтесь на нашу группу ВК</div>
+                        <a href="https://vk.com/slim_waist" target="_blank" class="social">
+                            <svg class="social__icon">
+                                <use xlink:href="#vkontakte">
+                                    <g>
+                                        <path d="m173 31.47a32 32 0 0 0 -28.48-28.47 530 530 0 0 0 -113 0 32 32 0 0 0 -28.52 28.47 532.69 532.69 0 0 0 0 113.05 32.06 32.06 0 0 0 28.48 28.48 530 530 0 0 0 113 0 32.06 32.06 0 0 0 28.52-28.48 532.69 532.69 0 0 0 0-113.05zm-35.27 88c-2.56.36-15.08 0-15.73 0a12.29 12.29 0 0 1 -8.7-3.47c-2.64-2.55-5-5.35-7.58-8a20.22 20.22 0 0 0 -2.47-2.24c-2.06-1.58-4.1-1.22-5.07 1.21a47.26 47.26 0 0 0 -1.58 8.03c-.17 2.45-1.73 4-4.49 4.16-1.71.1-3.42.13-5.11.09a39 39 0 0 1 -17.69-4.38 48.15 48.15 0 0 1 -15.13-13.22c-6.67-8.52-12-17.88-16.76-27.53-.25-.49-5.13-10.86-5.25-11.36-.44-1.63 0-3.2 1.35-3.75.86-.33 16.94 0 17.21 0a5.65 5.65 0 0 1 5.4 3.89 83.8 83.8 0 0 0 12.08 21.18 11.56 11.56 0 0 0 2.45 2.23c1.31.9 2.55.59 3.09-.93a26.28 26.28 0 0 0 1.12-6.45c.09-4.34 0-7.19-.24-11.53-.16-2.78-1.14-5.21-5.24-6-1.26-.23-1.37-1.27-.56-2.31 1.69-2.15 4-2.5 6.59-2.62 3.86-.23 7.72-.08 11.58 0h.84a23.26 23.26 0 0 1 5 .5 4.63 4.63 0 0 1 3.67 4.11 16 16 0 0 1 .25 3.32c-.1 4.73-.33 9.47-.38 14.2a24.3 24.3 0 0 0 .51 5.59c.55 2.53 2.28 3.15 4 1.33a62.24 62.24 0 0 0 6.11-7.52 76.12 76.12 0 0 0 8-15.56c1.12-2.81 2-3.43 5-3.43h17.06a10.12 10.12 0 0 1 3 .4 2.59 2.59 0 0 1 1.79 3.35c-.84 3.75-2.86 6.93-5 10-3.47 4.91-7.13 9.7-10.68 14.55a18.8 18.8 0 0 0 -1.23 2c-1.34 2.41-1.24 3.76.7 5.76 3.1 3.19 6.41 6.17 9.4 9.45a55.77 55.77 0 0 1 5.92 7.69c2.19 3.4.84 6.64-3.24 7.22z"></path>
+                                    </g>
+                                </use>
+                            </svg>
+                        </a>
+                        <div class="followers">9.9k подписчиков</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contacts__item">  
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6a684b6c7ab000a4160577f8c9a4b40952cdb4216bd02f4b2ee99c0228509fd4&amp;width=400&amp;height=502&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!--            FOOTER
+---------------------------------- -->
+
+<div class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__text">Адрес: г. Стерлитамак, ул. Карла Маркса, 102</div>
+            <div class="footer__text">Консультация и запись по телефону: <a href="tel:+79191471377" class="footer__tel">8 (919) 147 13 77</a></div>
+            <div class="footer__text">График работы: ПН - ВС 09:00 - 20:00</div>
+        </div>
+    </div>
+    <div class="footer__copyright">
+        <div class="container">
+            <div class="copyright__inner">
+                Авторские права © 2022 Slim Waist. Все права защищены <br> Создатель сайта <a class="bainazarov" href="https://t.me/amb_102" target="_blank">Aidar Bainazarov</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--            JS
+------------------------------- -->
+
+<script src="app.js"></script>
+
+
+
+</body>
+</html>
